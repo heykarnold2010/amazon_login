@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+main {
+  font-family: montserrat;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.the_nile {
+  width: 180px;
+  margin: 15px auto;
+  display: block;
+}
+
+.the_nile > img {
+  width: 100%;
+}
+
+.card {
+  padding: 5%;
+  margin-top: 5px;
+  background-color: #e5f9f6;
+}
+
+.card-img > img {
+  display: block;
+  margin: 25px auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.card-text > p {
+  text-align: center;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+.card > form > button {
+  width: 80%;
+  margin: 15px auto;
+  display: block;
+}
+
+.card > form > div > p {
+  width: 100%;
+  text-align: left;
+  font-size: .8em;
+  height: 20%;
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0;
+}
+
+.help_amazon {
+  font-size: 12px;
+}
+
+.material-icons {
+  font-size: 12px;
+}
+
+.btn-primary {
+  background-image: linear-gradient(#38dcc0, #1bbca7);
+  border-color: #169685;
+  border-radius: 20px;
+  color: white;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(#1bbca7, #1bbca7);
+  border-color: #169685;
+  color: white;
+}
+
+.btn-secondary {
+  background-image: linear-gradient(#d5d5d5, #acacad);
+  border-color: #787878;
+  border-radius: 20px;
+  color: black;
+  width: 80%;
+  margin: 15px auto;
+  display: block;
+}
+
+.btn-secondary:hover {
+  background-image: linear-gradient(#acacad, #999999);
+  border-color: #787878;
+  color: black;
+}
+
+.padding-top-sm {
+  padding-top: 5%;
+}
+
+#bold_email, #bold_password {
+  font-weight: bold;
+}
+
+#button_contact {
+  margin: 15px auto;
+}
+
+.nile_text {
+  font-size: 0.85em;
+  width: 60%;
+}
+
+fieldset {
+  display: block;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  border: 1px solid lightgray;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 2vh;
+}
+
+footer {
+  background-color: #f3faf9;
+  height: 50vh;
+  overflow: hidden;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer a {
+  padding-right: 7px
+}
